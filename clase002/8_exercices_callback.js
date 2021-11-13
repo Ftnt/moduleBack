@@ -8,7 +8,6 @@
 
 const fs = require('fs');
 
-
 function crearArchivo(archivo, contenido, callback) {
   fs.writeFile(archivo, contenido, 'utf8', callback)
 }
